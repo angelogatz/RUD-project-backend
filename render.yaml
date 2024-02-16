@@ -1,6 +1,6 @@
 databases:
-  - name: RUD-project
-    databaseName: RUD-project
+  - name: rudproject
+    databaseName: rudproject
     user: user
     plan: free
 
