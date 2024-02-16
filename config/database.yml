@@ -87,8 +87,4 @@ test:
 #
 production:
   <<: *default
-  database: rud_backend_production
-  username: backend_adm
-  password: backend_password
-  host: localhost
-  port: 5432
+  url: <%= ENV["MY_APP_DATABASE_URL"] %>
